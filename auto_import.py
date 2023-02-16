@@ -80,7 +80,7 @@ class ClickAndSendKeys():
             time.sleep(3)
         except:
             time.sleep(1)
-        logging.info("SMS - do ogarniecia")
+        logging.info("wer")
 
         wybierz_konto = driver.find_element(By. XPATH, "//div[@data-test-id='profile-box'] ")
         profil_tomboj = driver.find_element(By. XPATH, "//span[@title='Profil pełnomocnictwa']")
